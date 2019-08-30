@@ -1,0 +1,29 @@
+{
+    "name": "@bluebird-parking/seed",
+    "version": "0.0.1",
+    "description": "Package for seeding the Bluebird Parking database on GCP.",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Bluebird-Parking/bluebird-parking-seed.git"
+    },
+    "keywords": [
+        "bluebird-parking-seed",
+        "bluebird-parking",
+        "parking",
+        "seed"
+    ],
+    "author": "Tom Chinery <tom@tomchinery.com>",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/Bluebird-Parking/bluebird-parking-seed/issues"
+    },
+    "homepage": "https://github.com/Bluebird-Parking/bluebird-parking-seed#readme",
+    "devDependencies": {
+        "typescript": "^3.6.2"
+    }
+}
