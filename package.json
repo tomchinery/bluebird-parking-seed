@@ -3,9 +3,12 @@
     "version": "0.0.1",
     "description": "Package for seeding the Bluebird Parking database on GCP.",
     "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "prettier": "@tomchinery/prettier-config",
     "scripts": {
         "build": "tsc",
-        "test": "jest"
+        "test": "jest",
+        "lint": "eslint ./src/ --fix --ext .js,.jsx,.ts,.tsx"
     },
     "repository": {
         "type": "git",
@@ -24,6 +27,10 @@
     },
     "homepage": "https://github.com/Bluebird-Parking/bluebird-parking-seed#readme",
     "devDependencies": {
-        "typescript": "^3.6.2"
+        "@tomchinery/eslint-config": "0.0.3",
+        "@tomchinery/prettier-config": "0.0.1",
+        "eslint": "^6.2.2",
+        "prettier": "^1.18.2",
+        "typescript": "<3.6.0"
     }
 }
