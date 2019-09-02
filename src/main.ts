@@ -1,3 +1,4 @@
-export function testFun(): void {
-    console.log('it works');
+export function testFun(): number {
+    console.log('Im adding 2+2');
+    return 2 + 2;
 }
